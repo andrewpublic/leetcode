@@ -24,6 +24,4 @@ function imageSmoother(img: number[][]): number[][] {
       
       return Math.floor(sum / count);
   }
-
-  // New array result because we can't mess with the original
-;
+}
